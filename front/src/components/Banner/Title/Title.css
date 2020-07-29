@@ -1,0 +1,63 @@
+.title h1 {
+  font-family: Questrial;
+  color: var(--red);
+  font-size: 50px;
+}
+
+.title .description {
+  font-family: Roboto-Regular;
+  color: var(--black);
+  font-size: 25px;
+  margin-top: 0.5em;
+}
+
+.title .buttons {
+  margin-top: 2em;
+}
+
+.title .buttons button {
+  background: var(--red);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  height: 35px;
+  font-family: Questrial;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.title .buttons button.full {
+  width: 121px;
+  color: white;
+  margin-right: 1em;
+}
+
+.title .buttons button.empty {
+  background: transparent;
+  border: 1px solid var(--red);
+  width: 120px;
+  margin-left: 1em;
+  color: var(--red);
+}
+
+.title .buttons button.full:hover {
+  background: var(--blue);
+}
+
+.title .buttons button.empty:hover {
+  background: var(--red);
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title p {
+    text-align: center;
+  }
+}

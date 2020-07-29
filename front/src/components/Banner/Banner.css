@@ -1,0 +1,182 @@
+.banner {
+  margin-top: 1.5em;
+}
+
+.banner .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner .top .map {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.results {
+  margin-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result {
+  width: 70%;
+  border-radius: 5px;
+  padding: 0.7em;
+  color: white;
+  font-family: Roboto-Regular;
+  margin: 0.5em 0px 0.5em 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.result.red {
+  background: var(--red);
+}
+
+.result.blue {
+  background: var(--blue);
+}
+
+.result.red:hover {
+  background: #d8241e;
+}
+
+.result.blue:hover {
+  background: #0a0266;
+}
+
+.result .location-name {
+  font-family: Roboto-Bold;
+}
+
+.result .rating-icon {
+  color: rgb(218, 214, 22);
+}
+
+#select-location-type {
+  margin-top: 0.5em;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid var(--red);
+  height: 2em;
+  cursor: pointer;
+}
+
+#select-location-type:hover {
+  background: var(--red);
+  color: white;
+}
+
+.banner .next-page {
+  margin-top: 0.5em;
+  cursor: pointer;
+  color: var(--black);
+}
+
+.popup-content {
+  background: #f2f3f8 !important;
+  padding: 3em !important;
+  border-radius: 5px !important;
+}
+
+.modal-content .location-name {
+  color: var(--blue);
+  font-size: 25px;
+  letter-spacing: 0.3px;
+  font-family: Questrial;
+  margin-bottom: 2em;
+}
+
+.modal-content .location-label {
+  color: var(--red);
+  font-family: Questrial;
+  font-size: 18px;
+}
+
+.modal-content .location-answer {
+  color: var(--black);
+  margin-top: 0.5em;
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+
+.location-photo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.location-photo {
+  max-height: 30vw;
+  max-width: 30vw;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open {
+  background: #f2f3f8 !important;
+  border: none !important;
+  border-radius: 5px !important;
+  overflow: scroll !important;
+  max-height: 40em !important;
+  overflow-x: hidden !important;
+}
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.fav-icon {
+  margin-left: 0.5em;
+  cursor: pointer;
+}
+
+.fav-icon.black {
+  color: var(--black);
+}
+
+.fav-icon.black:hover {
+  color: rgb(218, 214, 22);
+}
+
+.fav-icon.yellow {
+  color: rgb(218, 214, 22);
+}
+
+.fav-icon.yellow:hover {
+  color: var(--black);
+}
+
+@media (max-width: 768px) {
+  .banner .top .map {
+    width: 100%;
+    margin-top: 1.5em;
+  }
+
+  .banner .top {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 540px) {
+  .banner .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner .buttons button {
+    margin-left: 0;
+    margin-right: 0 !important;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .banner .buttons button.empty {
+    margin: 0 !important;
+  }
+}

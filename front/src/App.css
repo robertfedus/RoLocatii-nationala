@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  /* margin-top: 64px; */
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main > * {
+  width: 70%;
+}
+
+.section-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.section-title-container img {
+  height: 3em;
+}
+
+.section-title {
+  margin-left: 0.5em;
+  color: var(--black);
+  font-size: 25px;
+}

@@ -1,0 +1,14 @@
+.auth-toolbar {
+  font-family: Questrial;
+  display: flex;
+  padding: 3em;
+  padding-top: 2em;
+}
+
+.auth-toolbar h1 {
+  color: var(--red);
+}
+
+.auth-toolbar .spacer {
+  flex: 1;
+}

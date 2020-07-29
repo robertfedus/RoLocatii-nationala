@@ -1,0 +1,322 @@
+[
+  {
+    "value": "restaurant",
+    "ro": "Restaurante"
+  },
+  {
+    "value": "bar",
+    "ro": "Baruri"
+  },
+  {
+    "value": "hotel",
+    "ro": "Hoteluri"
+  },
+  {
+    "value": "school",
+    "ro": "Scoli"
+  },
+  {
+    "value": "hospital",
+    "ro": "Spitale"
+  },
+  {
+    "value": "doctor",
+    "ro": "Doctori"
+  },
+  {
+    "value": "drugstore",
+    "ro": "Farmacii"
+  },
+  {
+    "value": "dentist",
+    "ro": "Dentisti"
+  },
+  {
+    "value": "accounting",
+    "ro": "Contabili"
+  },
+  {
+    "value": "airport",
+    "ro": "Aeroporturi"
+  },
+  {
+    "value": "amusement_park",
+    "ro": "Parcuri de distractie"
+  },
+  {
+    "value": "aquarium",
+    "ro": "Acvarii"
+  },
+  {
+    "value": "art_gallery",
+    "ro": "Galerii de arta"
+  },
+  {
+    "value": "atm",
+    "ro": "Bancomate"
+  },
+  {
+    "value": "bakery",
+    "ro": "Brutarii"
+  },
+  {
+    "value": "bank",
+    "ro": "Banci"
+  },
+  {
+    "value": "beauty_salon",
+    "ro": "Saloane de infrumusetare"
+  },
+  {
+    "value": "bicycle_store",
+    "ro": "Magazine de biciclete"
+  },
+  {
+    "value": "book_store",
+    "ro": "Librarii / Biblioteci"
+  },
+  {
+    "value": "bus_station",
+    "ro": "Statii de autobuz"
+  },
+  {
+    "value": "cafe",
+    "ro": "Cafenele"
+  },
+  {
+    "value": "campground",
+    "ro": "Zone de camping"
+  },
+  {
+    "value": "car_dealer",
+    "ro": "Reprezentante auto"
+  },
+  {
+    "value": "car_rental",
+    "ro": "Inchirieri de masini"
+  },
+  {
+    "value": "car_repair",
+    "ro": "Service-uri auto"
+  },
+  {
+    "value": "car_wash",
+    "ro": "Spalatorii auto"
+  },
+  {
+    "value": "casino",
+    "ro": "Cazinouri"
+  },
+  {
+    "value": "cemetery",
+    "ro": "Cimitire"
+  },
+  {
+    "value": "church",
+    "ro": "Biserici"
+  },
+  {
+    "value": "city_hall",
+    "ro": "Primarii"
+  },
+  {
+    "value": "clothing_store",
+    "ro": "Magazine de imbracaminte"
+  },
+  {
+    "value": "courthouse",
+    "ro": "Tribunale"
+  },
+  {
+    "value": "electrician",
+    "ro": "Electricieni"
+  },
+  {
+    "value": "electronics_store",
+    "ro": "Magazine de electronice"
+  },
+  {
+    "value": "embassy",
+    "ro": "Ambasade"
+  },
+  {
+    "value": "fire_station",
+    "ro": "Pompieri"
+  },
+  {
+    "value": "florist",
+    "ro": "Florarii"
+  },
+  {
+    "value": "funeral_home",
+    "ro": "Case funerare"
+  },
+  {
+    "value": "furniture_store",
+    "ro": "Magazine de mobila"
+  },
+  {
+    "value": "gas_station",
+    "ro": "Benzinarii"
+  },
+  {
+    "value": "grocery_or_supermarket",
+    "ro": "Supermarket-uri"
+  },
+  {
+    "value": "gym",
+    "ro": "Sali de fitness"
+  },
+  {
+    "value": "hair_care",
+    "ro": "Locatii ingrijire par"
+  },
+  {
+    "value": "hardware_store",
+    "ro": "Magazine de hardware"
+  },
+  {
+    "value": "insurance_agency",
+    "ro": "Agentii de asigurari"
+  },
+  {
+    "value": "jewelry_store",
+    "ro": "Magazine de bijuterii"
+  },
+  {
+    "value": "laundry",
+    "ro": "Spalatorii"
+  },
+  {
+    "value": "lawyer",
+    "ro": "Avocati"
+  },
+  {
+    "value": "library",
+    "ro": "Biblioteci"
+  },
+  {
+    "value": "light_rail_station",
+    "ro": "Gari"
+  },
+  {
+    "value": "liquor_store",
+    "ro": "Magazin de bauturi"
+  },
+  {
+    "value": "locksmith",
+    "ro": "Lacatusi"
+  },
+  {
+    "value": "meal_delivery",
+    "ro": "Livrari de mancare"
+  },
+  {
+    "value": "movie_theater",
+    "ro": "Cinematografe"
+  },
+  {
+    "value": "museum",
+    "ro": "Muzeuri"
+  },
+  {
+    "value": "night_club",
+    "ro": "Cluburi de noapte"
+  },
+  {
+    "value": "painter",
+    "ro": "Pictori"
+  },
+  {
+    "value": "park",
+    "ro": "Parcuri"
+  },
+  {
+    "value": "parking",
+    "ro": "Parcari"
+  },
+  {
+    "value": "pet_store",
+    "ro": "Magazine de animale"
+  },
+  {
+    "value": "physiotherapist",
+    "ro": "Psihoterapeuti"
+  },
+  {
+    "value": "plumber",
+    "ro": "Instalatori"
+  },
+  {
+    "value": "police",
+    "ro": "Politie"
+  },
+  {
+    "value": "post_office",
+    "ro": "Posta"
+  },
+  {
+    "value": "real_estate_agency",
+    "ro": "Agentii imobiliare"
+  },
+  {
+    "value": "rv_park",
+    "ro": "Parcari pentru rulote"
+  },
+  {
+    "value": "shoe_store",
+    "ro": "Magazine de incaltaminte"
+  },
+  {
+    "value": "shopping_mall",
+    "ro": "Mall-uri"
+  },
+  {
+    "value": "spa",
+    "ro": "Spa"
+  },
+  {
+    "value": "stadium",
+    "ro": "Stadioane"
+  },
+  {
+    "value": "storage",
+    "ro": "Depozite"
+  },
+  {
+    "value": "store",
+    "ro": "Magazine"
+  },
+  {
+    "value": "subway_station",
+    "ro": "Statii de metrou"
+  },
+  {
+    "value": "taxi_stand",
+    "ro": "Statii de taxi"
+  },
+  {
+    "value": "tourist_attraction",
+    "ro": "Atractii turistice"
+  },
+  {
+    "value": "train_station",
+    "ro": "Statii de tren"
+  },
+  {
+    "value": "travel_agency",
+    "ro": "Agentii de calatorie"
+  },
+  {
+    "value": "university",
+    "ro": "Universitati"
+  },
+  {
+    "value": "veterinary_care",
+    "ro": "Veterinari"
+  },
+  {
+    "value": "zoo",
+    "ro": "Gradini zoologice"
+  }
+]

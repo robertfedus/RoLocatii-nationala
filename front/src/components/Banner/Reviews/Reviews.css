@@ -1,0 +1,95 @@
+.popup-reviews {
+  margin-top: 2em;
+  width: 25em;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.3);
+  /* border-radius: 5px; */
+  font-family: Questrial;
+  color: var(--black);
+}
+
+.popup-reviews .top {
+  /* border-top-left-radius: 5px;
+  border-top-right-radius: 5px; */
+  background: var(--blue);
+  padding: 0.5em;
+  color: white;
+  height: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.popup-reviews .left {
+}
+
+.popup-reviews .right {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.popup-reviews .right p {
+  margin-right: 0.3em;
+}
+
+.popup-reviews .right p:hover {
+  color: var(--red);
+}
+
+.popup-reviews .bottom {
+  /* border-radius: 5px; */
+  padding: 2em;
+  padding-top: 1em;
+  height: 24em;
+  overflow: scroll;
+}
+
+.review-profile-picture {
+  height: 3em;
+  margin-right: 0.5em;
+}
+
+.picture-name {
+  display: flex;
+  align-items: center;
+}
+
+.review-rating-icon {
+  margin-left: 0.1em;
+  margin-bottom: 0.1em;
+  color: rgb(218, 214, 22);
+}
+
+.popup-reviews .rating {
+  margin-left: 0.5em;
+}
+
+.popup-reviews .name {
+  color: var(--red);
+}
+
+.popup-reviews .text {
+  margin-top: 0.5em;
+}
+
+.popup-reviews .date {
+  margin-top: 0.5em;
+}
+
+.date span {
+  font-size: 11px;
+  color: var(--blue);
+}
+
+.popup-reviews .spacer-container {
+  margin-top: 1.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.popup-reviews .spacer {
+  width: 70%;
+  border-top: 1px solid black;
+  height: 1em;
+  border-color: #aeafb9;
+}

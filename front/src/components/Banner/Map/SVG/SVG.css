@@ -1,0 +1,15 @@
+.map-svg path {
+  cursor: pointer;
+  stroke: #3b38ff;
+  fill: #f2f3f8;
+  z-index: 1;
+  stroke: url(#stroke-gradient) #fff;
+}
+#stroke-gradient {
+  --color-stop: #f12c06;
+  --color-bot: #faed34;
+}
+
+.map-svg path:hover {
+  fill: #3b38ff;
+}

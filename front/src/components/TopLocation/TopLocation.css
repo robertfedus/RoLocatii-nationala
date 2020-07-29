@@ -1,0 +1,55 @@
+.top-location {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-family: Questrial;
+}
+.top-location .description {
+  display: flex;
+  justify-content: center;
+}
+
+.top-location .description p {
+  padding: 1em;
+  text-align: center;
+  display: inline-block;
+  border-left: 2px solid var(--red);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.6s;
+  margin-top: 2em;
+  line-height: 1.6;
+  color: var(--black);
+  margin-bottom: 1.5em;
+}
+
+.top-location .description p:hover {
+  color: var(--red);
+  border-color: var(--blue);
+}
+
+.top-location .title {
+  display: flex;
+  justify-content: center;
+}
+
+.top-location .title h3 {
+  color: var(--blue);
+  font-size: 25px;
+}
+
+.photo-container {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.top-location span {
+  color: var(--black);
+  font-size: 18px;
+  display: block;
+}
+
+.top-location span.q {
+  color: var(--red);
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}

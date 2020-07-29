@@ -1,0 +1,46 @@
+:root {
+  --black: #4d5061;
+  --blue: #1f10cf;
+  --dark-blue: #090068;
+  --red: #ff5752;
+}
+
+html,
+body {
+  height: 100%;
+  background: #f2f3f8;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto-Regular;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a,
+button {
+  transition: 0.3s;
+}
+
+@font-face {
+  font-family: 'Questrial';
+  src: local('Questrial'), url(./fonts/Questrial-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: local('Questrial'), url(./fonts/Roboto-Thin.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: local('Questrial'), url(./fonts/Roboto-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Questrial'), url(./fonts/Roboto-Regular.woff) format('woff');
+}

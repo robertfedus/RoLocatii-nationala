@@ -1,0 +1,115 @@
+.toolbar {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  background: transparent;
+  height: 56px;
+  width: 100%;
+  padding-left: 7em;
+  padding-right: 7em;
+  padding-top: 3em;
+}
+
+.toolbar-navigation {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.toolbar-auth {
+  margin-left: 1rem;
+}
+
+.toolbar-auth a {
+  color: var(--blue);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.toolbar-auth button {
+  background: var(--blue);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  height: 40px;
+  margin: 0px 0.5em 0px 0.5em;
+  font-family: Questrial;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.toolbar-auth button.full {
+  width: 101px;
+  color: white;
+}
+
+.toolbar-auth button.empty {
+  background: transparent;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  width: 100px;
+}
+
+.toolbar-auth button.full:hover {
+  background: var(--red);
+}
+
+.toolbar-auth button.empty:hover {
+  background: var(--blue);
+  color: white;
+}
+
+/* .toolbar-logo img {
+  height: 2.5em;
+} */
+
+.toolbar .spacer {
+  flex: 1;
+}
+
+.toolbar-navigation-items ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.toolbar-navigation-items li {
+  padding: 0 0.5rem;
+  font-family: Questrial;
+}
+
+.toolbar-navigation-items a {
+  color: var(--blue);
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.toolbar-navigation-items a:hover,
+.toolbar-navigation-items a:active {
+  color: var(--dark-blue);
+}
+
+@media (max-width: 768px) {
+  .toolbar-navigation-items {
+    display: none;
+  }
+
+  .toolbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (min-width: 769px) {
+  .toolbar-toggle-button {
+    display: none;
+  }
+
+  .toolbar-logo {
+    margin-left: 0;
+  }
+}
